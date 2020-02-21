@@ -4,7 +4,7 @@
 #include "core.h"
 
 #if defined(_DEBUG) || defined(PROFILE)
-    //#define _DEBUG_SHADERS "../../OpenLara/src/shaders/"
+    #define _DEBUG_SHADERS "..\\..\\..\\source\\repos\\Baleog46\\OpenLara\\src\\shaders\\"
 #endif
 
 #ifdef _OS_WIN

@@ -925,6 +925,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
     strcat(cacheDir, getenv("APPDATA"));
     strcat(cacheDir, "\\OpenLara\\");
     strcpy(saveDir, cacheDir);
+    strcpy(contentDir, cacheDir);
     CreateDirectory(cacheDir, NULL);
 
     RECT r = { 0, 0, 1280, 720 };
