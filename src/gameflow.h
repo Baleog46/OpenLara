@@ -1040,13 +1040,13 @@ namespace TR {
 
     Version getGameVersion() {
         useEasyStart = true;
-        if (Stream::existsContent("DATA/GYM.PHD") || Stream::existsContent("GYM.PHD"))
+       /* if (Stream::existsContent("DATA/GYM.PHD") || Stream::existsContent("GYM.PHD"))
             return VER_TR1_PC;
         if (Stream::existsContent("PSXDATA/GYM.PSX"))
             return VER_TR1_PSX;
         if (Stream::existsContent("DATA/GYM.SAT"))
             return VER_TR1_SAT;
-
+*/
         if (Stream::existsContent("data/ASSAULT.TR2") || Stream::existsContent("assault.TR2"))
             return VER_TR2_PC;
         if (Stream::existsContent("DATA/ASSAULT.PSX"))

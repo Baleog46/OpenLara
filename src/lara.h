@@ -138,24 +138,22 @@ struct Lara : Character {
         ANIM_DEATH_SPIKES       = 149,
         ANIM_HANG_SWING         = 150,
 
-        /*
-        160 – Stand in water or under low ceiling ? ascend ladder (without the jump and grab)
-        161 – Ascend ladder
-        162 – Ascend ladder ? hang still on ladder (right foot higher)
-        163 – Ascend ladder ? hang still on ladder (left foot higher)
-        164 – Hang still on ladder
-        165 – Hang still on ladder ? ascend ladder
-        166 – Descend ladder ? hang still on ladder (left foot higher)
-        167 – Descend ladder ? hang still on ladder (right foot higher)
-        168 – Descend ladder
-        169 – Hang still on ladder ? descend ladder
-        170 – Climb sideways right on ladder
-        171 – Climb sideways left on ladder
-        172 – Hang by the hands on ladder
-        173 – Hang by the hands on ladder ? gain footing on ladder
-        174 – Hang still on ladder ? pull up ? stand
-        */
-
+		ANIM_STAND_WATER_LOW	= 160,
+		ANIM_LADDER_ASCEND		= 161,
+		ANIM_LADDER_STILL_RIGHTFH = 162,
+		ANIM_LADDER_STILL_LEFTTFH = 163,
+        ANIM_LADDER_HANG_STILL	= 164,
+		ANIM_LADDER_HANG_STILL_ASC = 164,
+		ANIM_LADDER_DESCEND_RIGHTFH = 166,
+		ANIM_LADDER_DESCEND_LEFTTFH = 167,
+		ANIM_LADDER_DESCEND = 168,
+		ANIM_LADDER_HANG_STILL_DESC = 169,
+		ANIM_LADDER_SIDE_RIGHT	= 170,
+		ANIM_LADDER_SIDE_LEFTT = 171,
+		ANIM_LADDER_HANG_HANDS = 172,
+		ANIM_LADDER_GAIN_FOOT	= 173,
+		ANIM_LADDER_HANG_STILL_ON = 174,
+		
         ANIM_WADE_SWIM          = 176,
         ANIM_WADE               = 177,
         ANIM_WADE_RUN_LEFT      = 178,

@@ -4,3 +4,5 @@
 
 /.vs
 /src/platform/win/.vs/OpenLara/v16
+/bin
+/src/platform/win
